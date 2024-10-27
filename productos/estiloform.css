@@ -1,0 +1,127 @@
+body {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    font-family: Arial, sans-serif; /* Fuente más legible */
+}
+
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 50px auto; /* Centrado automático con margen */
+    padding: 20px; /* Espaciado interno */
+    background-color: white; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h2 {
+    text-align: center; /* Centrado del título */
+    color: #343a40; /* Color del texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+p {
+    text-align: center; /* Centrado del texto */
+    color: #6c757d; /* Color gris para instrucciones */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espacio entre los grupos de formulario */
+}
+
+label {
+    display: block; /* Hacer que la etiqueta ocupe toda la línea */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    font-weight: bold; /* Negrita en las etiquetas */
+    color: #343a40; /* Color de las etiquetas */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+input[type="submit"] {
+    width: 100%; /* Ancho completo del botón */
+    padding: 10px; /* Espaciado interno */
+    background-color: #9fa685; /* Color de fondo azul */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+input[type="submit"]:hover {
+    background-color: #4d6e18; /* Color azul más oscuro al pasar el cursor */
+}
+
+.icon-large {
+    font-size: 48px; /* Ajusta el tamaño aquí */
+    color: #007bff; /* Cambia el color si lo deseas */
+ }
+
+ .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #9fa685;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    color: #4d6e18;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para iconos dentro de la tabla */
+.bx {
+    font-size: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container-sm {
+        padding: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    caption {
+        font-size: 20px;
+    }
+}
+
+
+input[type="email"], input[type="number"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
